@@ -1,0 +1,64 @@
+:root{
+    --main-color: #507fff;
+    --secondary-color: #2e31cc;
+    --accent-color: #ff5733;
+    --verdecito: #28a745;
+    --black-standard: #131314;
+}
+
+*{
+    font-family: Arial, sans-serif;
+}
+
+/* naranja_mecanica : snake_case
+
+naranjaMecanica  : camelCase
+
+naranja-mecanica : kebab-case
+
+*/
+
+div{
+
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 248, 220,0);
+
+    color: var(--secondary-color);
+
+    p{
+        color: var(--accent-color);
+    }
+
+}
+
+p{
+    color: var(--verdecito)
+    font-size: 1em;
+
+}
+
+#caja{
+    width: 50%;
+    height: 50%;
+    background-color: tan;
+}
+
+
+#caja2{
+    width: 50vw;
+    height: 25vh;
+    /*background: linear-gradient(45deg, #c9d0e5,#d2e833,#ff5733, #2e31cc)*/
+    /*background: radial-gradient(circle, #ff5733, #507fff, #fff);*/
+    background:conic-gradient(from 60deg , #c9d0e5,#d2e833,#ff5733, #2e31cc);
+}
+
+main{
+    min-height: 85vh;
+}
+
+footer{
+    background-color: var(--black-standard);
+    color: whitesmoke;
+    min-height: 5vh;
+}
